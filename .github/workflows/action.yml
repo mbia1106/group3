@@ -2,7 +2,7 @@ name: Actions Workflow
 
 on:
   schedule:
-    cron: '* * * * *'
+    - cron: '* * * * *'
   push:
     branches:
       - main
