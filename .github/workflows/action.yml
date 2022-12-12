@@ -8,6 +8,7 @@ on:
       - main
       - test
 jobs:
+  test_schedule:
   run-on: self-hosted
   steps:
     - name: checkout
