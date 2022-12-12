@@ -8,14 +8,15 @@ on:
       - main
       - test
 jobs:
-  test_schedule:
-    run-on: package
-    steps:
-
-      - name: run some simple commands
+  run-shell-command:
+    runs-on: package
+    steps: 
+      - name: echo a string
+        run: echo "Hello World"
+        timeout-minutes: 0
+      - name: multiline script 
         run: |
-          pwd
-          ls -a
-         
+        pwd
+        ls -a
 
 
