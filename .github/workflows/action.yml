@@ -9,7 +9,7 @@ on:
       - test
 jobs:
   test_schedule:
-    run-on: self-hosted
+    run-on: package
     steps:
 
       - name: run some simple commands
