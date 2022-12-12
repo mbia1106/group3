@@ -1,15 +1,12 @@
 name: Actions Workflow 
-
 on:
   schedule:
     - cron: '* * * * *'
   push:
-    branches:
-      - main
-      - test
+  
 jobs:
   test_schedule:
-    run-on: [self-hosted]
+    run-on: self-hosted
     steps:
       - name: checkout
         uses: actions/checkout@v2
