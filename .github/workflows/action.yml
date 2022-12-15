@@ -16,7 +16,7 @@ jobs:
         timeout-minutes: 0
       - name: multiline script 
         run: |
-        pwd
-        ls -a
+          pwd
+          ls -a
 
 
