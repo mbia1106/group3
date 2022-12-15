@@ -4,9 +4,7 @@ on:
   schedule:
     - cron: '* * * * *'
   push:
-    branches:
-      - main
-      - test
+
 jobs:
   run-shell-command:
     runs-on: self-hosted
@@ -18,5 +16,6 @@ jobs:
         run: |
           pwd
           ls -a
+
 
 
