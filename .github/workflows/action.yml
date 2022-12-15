@@ -1,8 +1,8 @@
 name: Actions Workflow 
 
 on:
-  push:
   schedule:
+    # Runs every minute
     - cron: '*/1 * * * *'
 
 jobs:
