@@ -3,7 +3,6 @@ name: Actions Workflow
 on:
   schedule:
     - cron: '* * * * *'
-  push:
 
 jobs:
   run-shell-command:
