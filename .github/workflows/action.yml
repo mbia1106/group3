@@ -3,7 +3,7 @@ name: Actions Workflow
 on:
   schedule:
     # Runs every minute
-    - cron: '*/1 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   run-shell-command:
