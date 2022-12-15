@@ -9,7 +9,7 @@ on:
       - test
 jobs:
   run-shell-command:
-    runs-on: package
+    runs-on: self-hosted
     steps: 
       - name: echo a string
         run: echo "Hello World"
